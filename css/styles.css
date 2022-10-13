@@ -133,6 +133,7 @@ body {
 /* portfolio */
 /* section filter */
 .filter-btn {
+  cursor: pointer;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;

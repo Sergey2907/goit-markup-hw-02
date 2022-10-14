@@ -1,7 +1,4 @@
 :root {
-  /* font-weight */
-  --primary-fontWeight: 400;
-  --secondary-fontWeight: 700;
   /* color */
   --primary-color: rgb(33, 33, 33);
   --secondary-color: #757575;
@@ -14,7 +11,7 @@
 body {
   font-family: 'Roboto';
   background-color: var(--main-fon-color);
-  font-weight: var(--primary-fontWeight);
+  font-weight: 400;
   color: rgba(33, 33, 33, 1);
 }
 
@@ -28,7 +25,7 @@ body {
 .logo {
   font-family: 'Raleway';
   font-size: 26px;
-  font-weight: var(--secondary-fontWeight);
+  font-weight: 700;
   color: #000000;
 }
 .logo span {
@@ -68,7 +65,7 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
   font-family: 'Roboto';
-  font-weight: var(--secondary-fontWeight);
+  font-weight: 700;
   font-size: 16px;
 }
 /* benefits */
@@ -87,25 +84,22 @@ body {
 }
 /* список преимуществ */
 .benefits-item h3 {
-  font-weight: var(--secondary-fontWeight);
+  font-weight: 700;
   font-size: 14px;
 }
 .benefits-item p {
   font-size: 14px;
 }
 /* projects */
-.projects-titel {
-  font-weight: var(--secondary-fontWeight);
+.projects-titel,
+.team-titel {
+  font-weight: 700;
   font-size: 36px;
 }
-/* не знаю как .projects-titel и .team-titel сделать одной записью что бы свойства применялись */
+
 /* team */
 .team {
   background-color: #f5f4fa;
-}
-.team-titel {
-  font-weight: var(--secondary-fontWeight);
-  font-size: 36px;
 }
 .team-list h3 {
   font-weight: 500;
@@ -122,9 +116,11 @@ body {
 .footer-address .logo {
   color: #ffffff;
 }
-.address-link span {
+.address-link:hover {
   color: #ffffff;
-  text-decoration: none;
+}
+.address-link:focus {
+  color: #ffffff;
 }
 .address-link {
   color: rgba(255, 255, 255, 0.6);

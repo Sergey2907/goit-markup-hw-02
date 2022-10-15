@@ -26,6 +26,7 @@ body {
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.19;
   color: #000000;
 }
 .logo span {
@@ -35,6 +36,7 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
   color: var(--primary-color);
 }
 .nav-link:hover,
@@ -45,6 +47,7 @@ body {
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
   color: var(--secondary-color);
 }
 .contacts-link:hover,
@@ -59,6 +62,7 @@ body {
 .hiro-titel {
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   color: #ffffff;
 }
 .hiro-button {
@@ -67,6 +71,7 @@ body {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.875;
 }
 /* benefits */
 /* скрытый заголовок */
@@ -84,17 +89,18 @@ body {
 }
 /* список преимуществ */
 .benefits-item h3 {
-  font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
 }
 .benefits-item p {
   font-size: 14px;
+  line-height: 1.71;
 }
 /* projects */
 .projects-titel,
 .team-titel {
-  font-weight: 700;
   font-size: 36px;
+  line-height: 1.166;
 }
 
 /* team */
@@ -104,17 +110,20 @@ body {
 .team-list h3 {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.187;
 }
 .team-list p {
   font-size: 16px;
+  line-height: 1.187;
   color: var(--secondary-color);
 }
 /* footer */
 .footer {
   background-color: #2f303a;
 }
-.footer-address .logo {
+.footer .logo {
   color: #ffffff;
+  line-height: 1.19;
 }
 .address-link:hover {
   color: #ffffff;
@@ -123,6 +132,7 @@ body {
   color: #ffffff;
 }
 .address-link {
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -133,6 +143,7 @@ body {
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.62;
   color: rgba(33, 33, 33, 1);
 }
 .filter-btn:hover {
@@ -140,3 +151,9 @@ body {
   color: #ffffff;
 }
 /* наші роботи */
+.work-item h3 {
+  line-height: 2;
+}
+.work-item p {
+  line-height: 1.875;
+}

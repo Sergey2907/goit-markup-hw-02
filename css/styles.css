@@ -17,6 +17,8 @@ body {
 
 .list {
   list-style: none;
+}
+.link {
   text-decoration: none;
 }
 
@@ -113,7 +115,6 @@ body {
   line-height: 1.187;
 }
 .team-list p {
-  font-size: 16px;
   line-height: 1.187;
   color: var(--secondary-color);
 }
@@ -134,7 +135,6 @@ body {
 .address-link {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 /* portfolio */
 /* section filter */
@@ -151,7 +151,7 @@ body {
   color: #ffffff;
 }
 /* наші роботи */
-.work-item h3 {
+.work-item h2 {
   line-height: 2;
 }
 .work-item p {

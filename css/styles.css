@@ -9,9 +9,10 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   background-color: var(--main-fon-color);
   font-weight: 400;
+  letter-spacing: 0.03em;
   color: rgba(33, 33, 33, 1);
 }
 
@@ -66,6 +67,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hiro-button {
   background-color: var(--accent-color);
@@ -73,7 +77,8 @@ body {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* benefits */
 /* скрытый заголовок */
@@ -102,7 +107,8 @@ body {
 .projects-titel,
 .team-titel {
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* team */
@@ -112,10 +118,10 @@ body {
 .team-list h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.18;
 }
 .team-list p {
-  line-height: 1.187;
+  line-height: 1.18;
   color: var(--secondary-color);
 }
 /* footer */
@@ -152,8 +158,12 @@ body {
 }
 /* наші роботи */
 .work-item h2 {
+  font-size: 18px;
   line-height: 2;
+  color: var(--primary-color);
+  letter-spacing: 0.06em;
 }
 .work-item p {
-  line-height: 1.875;
+  line-height: 1.87;
+  color: #757575;
 }
